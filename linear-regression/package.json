@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "@tensorflow/tfjs": "^1.7.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "memoize": "^0.1.1",
     "mnist-data": "^1.2.6",
     "node-remote-plot": "^1.2.0",
