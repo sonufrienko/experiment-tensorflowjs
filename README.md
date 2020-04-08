@@ -1,2 +1,3 @@
-# experiment-tensorflowjs
-My experiments in Machine Learning using JavaScript and TensorflowJS
+# Machine Learning using TensorFlowJS
+
+![](tensorflow-js-logo.png)
