@@ -26,4 +26,11 @@ plot({
   name: 'mse-history'
 })
 
-console.log(`R2 = ${r2}`);
+const predictionValue = regression.predict([
+  [120, 2, 380] // horsepower', 'weight', 'displacement'
+]).arraySync()[0][0];
+
+console.log({
+  prediction: predictionValue,
+  r2
+});
