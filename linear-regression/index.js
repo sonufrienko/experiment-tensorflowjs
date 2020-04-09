@@ -1,4 +1,4 @@
-const loadCSV = require('./load-csv');
+const loadCSV = require('../utils/load-csv');
 const LinearRegression = require('./linear-regression');
 const plot = require('node-remote-plot')
 
