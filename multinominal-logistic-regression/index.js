@@ -33,7 +33,7 @@ const regression = new LogisticRegression(features, _.flatMap(labels), {
 regression.train();
 
 // test our accuracy
-// console.log(regression.test(testFeatures, testLabels));
+console.log(regression.test(testFeatures, _.flatMap(testLabels)));
 
 // make our prediction
 const predictionValue = regression
