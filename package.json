@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "linear": "cd linear-regression; node index.js",
-    "logistic": "cd logistic-regression; node index.js"
+    "logistic": "cd logistic-regression; node index.js",
+    "multilogistic": "cd multinominal-logistic-regression; node index.js"
   },
   "author": "",
   "license": "MIT",
