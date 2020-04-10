@@ -1,4 +1,5 @@
-const tf = require('@tensorflow/tfjs');
+// const tf = require('@tensorflow/tfjs');
+const tf = require('@tensorflow/tfjs-node');
 const _ = require('lodash');
 
 class LogisticRegression {
